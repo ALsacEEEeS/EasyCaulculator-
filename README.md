@@ -72,6 +72,7 @@ Limit of sin(x)/x as x→0 → 1
 **Notes**  
 - Note data is saved in `math_notes.json` in the current directory  
 - Arithmetic calculations use Python's `eval` function—ensure input safety
+- Latest version only supports Chinese
 
 # 多功能数学计算器
 
@@ -156,3 +157,5 @@ pip install sympy
 ## 注意事项
 - 笔记数据保存在当前目录的math_notes.json文件中
 - 算术计算使用Python的eval函数，请确保输入安全
+- 目前版本仅支持中文
+
