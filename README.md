@@ -38,7 +38,7 @@ A comprehensive mathematical tool featuring calculus computation, arithmetic cal
 
 **Installation Dependencies**  
 ```bash  
-pip install requirements.txt  
+pip install -r requirements.txt  
 ```  
 
 **Usage**  
@@ -118,7 +118,7 @@ Limit of sin(x)/x as x→0 → 1
 ## 安装依赖
 
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## 使用方法
@@ -158,5 +158,6 @@ pip install requirements.txt
 - 笔记数据保存在当前目录的math_notes.json文件中
 - 算术计算使用Python的eval函数，请确保输入安全
 - 目前版本仅支持中文
+
 
 
