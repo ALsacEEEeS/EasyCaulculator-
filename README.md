@@ -1,3 +1,78 @@
+Multi-functional Mathematical Calculator  
+A comprehensive mathematical tool featuring calculus computation, arithmetic calculation, and note-taking functionality.  
+
+**Current Features**  
+1. **Calculus Computation**  
+   - Differentiation: Compute derivatives of functions  
+   - Integration: Compute indefinite and definite integrals  
+   - Limit Calculation: Evaluate limits of functions at specific points  
+   - Numerical Calculation: Compute function values at given points  
+
+2. **Arithmetic Calculation**  
+   - Basic Operations: Addition, subtraction, multiplication, division, exponentiation  
+   - Calculator Interface: Number and operator buttons  
+   - Real-time Calculation: Direct expression input for instant evaluation  
+   - Precise Results: Supports accurate floating-point computations  
+
+3. **Note-taking Functionality**  
+   - Note Management: Create, save, and view mathematical notes  
+   - Timestamps: Automatically records creation and modification times  
+   - Local Storage: Notes saved in local files  
+   - Quick Preview: Note list and content preview  
+
+**Feature Tabs**  
+- **Calculus Tab**  
+  Differentiation, integration, limits, numerical calculation  
+  Quick input via symbol buttons  
+  Intelligent expression preprocessing  
+
+- **Arithmetic Tab**  
+  Basic arithmetic operations  
+  Calculator-style button interface  
+  Supports complex expression evaluation  
+
+- **Math Notes Tab**  
+  Note creation and editing  
+  Note list management  
+  Content preview functionality  
+
+**Installation Dependencies**  
+```bash  
+pip install sympy  
+```  
+
+**Usage**  
+1. Run `python calculus_calculator.py` or double-click `run_calculator.bat`  
+2. Select different tabs to access corresponding features  
+3. Each tab operates independently without interference  
+
+**Arithmetic Examples**  
+```  
+2 + 3 * 4 → 14  
+(5 + 3) / 2 → 4.0  
+2^3 + 4^2 → 24  
+```  
+
+**Calculus Examples**  
+```  
+Derivative of x^2 → 2*x  
+Integral of sin(x) → -cos(x) + C  
+Limit of sin(x)/x as x→0 → 1  
+```  
+
+**Note-taking**  
+- Input title and content to save notes  
+- Notes automatically saved to local files  
+- View and edit existing notes anytime  
+
+**Supported Mathematical Functions**  
+- Calculus operations: symbolic differentiation/integration, limit evaluation, numerical computation  
+- Arithmetic operations: basic four operations, exponentiation, parenthesis priority  
+
+**Notes**  
+- Note data is saved in `math_notes.json` in the current directory  
+- Arithmetic calculations use Python's `eval` function—ensure input safety
+
 # 多功能数学计算器
 
 一个功能全面的数学工具，包含微积分计算、算术计算和笔记功能。
@@ -68,18 +143,16 @@ pip install sympy
 
 ## 支持的数学功能
 
-### 微积分运算
-- 符号微分和积分
-- 极限计算
-- 数值计算
+  ### 微积分运算
+  - 符号微分和积分
+  - 极限计算
+  - 数值计算
 
-### 算术运算
-- 基本四则运算
-- 幂运算
-- 括号优先级
+  ### 算术运算
+  - 基本四则运算
+  - 幂运算
+  - 括号优先级
 
 ## 注意事项
-
-- 当前版本已移除绘图功能以简化安装
 - 笔记数据保存在当前目录的math_notes.json文件中
 - 算术计算使用Python的eval函数，请确保输入安全
